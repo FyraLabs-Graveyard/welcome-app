@@ -1,0 +1,18 @@
+[package]
+name = "ultramarine-welcome"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build]
+# outdir
+
+outdir = "target/welcome"
+
+
+[dependencies]
+gtk = { version = "0.4.6", package = "gtk4" }
+
+[build-dependencies]
+gtk = { version = "0.4.6", package = "gtk4" }

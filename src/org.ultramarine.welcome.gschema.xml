@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schemalist>
+  <schema id="org.ultramarine.welcome" path="/org/ultramarine/welcome/">
+    <key name="initialized" type="b">
+      <default>false</default>
+      <summary>Setup has initialized</summary>
+    </key>
+  </schema>
+</schemalist>

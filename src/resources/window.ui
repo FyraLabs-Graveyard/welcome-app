@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="MyGtkAppWindow" parent="GtkAppliccationWindow">
+    <property name="title">My GTK App</property>
+    <child>
+      
+    </child>
+  </template>
+  <template class="Assistant" parent="GtkAssistant">
+    <property name="title">AAAAA</property>
+    <child>
+      
+    </child>
+  </template>
+</interface>

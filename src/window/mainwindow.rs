@@ -4,8 +4,7 @@ use gtk::{
     Orientation,
 };
 
-use super::page1::page_1;
-use super::page1::page_2;
+use super::page1::*;
 
 pub fn window(app: &Application) {
     // New Assistant
@@ -25,6 +24,10 @@ pub fn window(app: &Application) {
     window.connect_close(|ass| {
         ass.destroy(); // Ass destroyed
     });
+    // set window size
+    window.set_default_size(1000, 600);
+    window.set_resizable(false);
+    // hide assistant sidebar
     window.set_title(Some("Welcome to Ultramarine"));
     window.present();
 }
